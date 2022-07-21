@@ -1,0 +1,79 @@
+body{
+    background-color: rgba(230, 230, 222, 0.938);
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 40px;
+    background-color: rgb(10, 101, 186);
+    color: white;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+.div-start{
+    display: block;
+    text-align:center;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgb(221, 221, 204);
+    padding: 50px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 29%;
+}
+input{
+    padding: 20px;
+    border-radius: 4px;
+    width: 70%;
+}
+input:hover{
+    background: transparent;
+}
+.input2{
+    margin-top: 10px;
+}
+.but{
+    width: 70%;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: rgb(10, 101, 186);
+    color: white;
+    border-radius: 4px;
+    transform: translateZ(0);
+    transition:transform .25s ease-out;
+}
+.forgot{
+    color: rgb(10, 101, 186);
+    text-align: center;
+}
+.or{
+    text-align: center;
+}
+.butt{
+    padding: 25px;  
+    background-color: #42b72a;
+    border-radius: 10px; 
+    width: 59%;
+}
+iframe{
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 5%;
+    
+}
+.foot{
+    background-color: white;
+    margin-top: 40px;
+}
+.div0{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 3px;
+}
+.met{
+    text-align: center;
+    padding-bottom: 15px;
+}
