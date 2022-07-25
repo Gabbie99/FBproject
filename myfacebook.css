@@ -30,10 +30,10 @@ input{
 input:hover{
     background: transparent;
 }
-.input2{
+#input2{
     margin-top: 10px;
 }
-.but{
+#but{
     width: 70%;
     padding: 20px;
     margin-top: 15px;
@@ -43,18 +43,30 @@ input:hover{
     transform: translateZ(0);
     transition:transform .25s ease-out;
 }
+#but a{
+    text-decoration: none;
+    color: white;
+}
 .forgot{
-    color: rgb(10, 101, 186);
     text-align: center;
+}
+.forgot a{
+    text-decoration: none;
+    color: rgb(10, 101, 186);
 }
 .or{
     text-align: center;
 }
-.butt{
+#butt{
     padding: 25px;  
     background-color: #42b72a;
     border-radius: 10px; 
     width: 59%;
+}
+#butt a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
 }
 iframe{
     border-radius: 50%;
@@ -76,4 +88,84 @@ iframe{
 .met{
     text-align: center;
     padding-bottom: 15px;
+}
+/* ---------------------------------------------------------- */
+
+#next-div1{
+    display: flex;
+    justify-content: space-between;
+}
+#next-div2{
+    display: block;
+}
+h4{
+    color: rgb(89, 86, 86);
+}
+textarea{
+    width: 100%;
+}
+textarea::placeholder{
+    text-align: center;
+    padding: 10px;
+}
+#btn{
+    margin-left: 65%;
+    padding: 5px;
+    margin-top: 5%;
+}
+#hr2{
+    width: 60%;
+    margin-top: 5%;
+}
+#footer{
+    text-align: center;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+#body{
+    background: linear-gradient(to left, rgb(24, 185, 24), rgb(221, 221, 239));
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:lavender; 
+    align-items: center;
+}
+.h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(78, 78, 234);;
+    font-size: 25px;
+}
+.flex-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+    width: 80%;
+}
+#par{
+   font-size: 20px; 
+   font-weight: 600;
+}
+ul{
+    list-style: none;
+}
+table, tr, td{
+    border-collapse: collapse;
+    border: .7px solid black;
+}
+td{
+    padding-right: 5px;
+    padding-left: 15px;
+}
+.table{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.text{
+    width: 80%;
+    height: 80%;
+}
+#content{
+    margin-top: 20px;
 }

@@ -86,25 +86,68 @@ let newsalert = [
 
 ]
 
+let firstInput = document.getElementById('input1')
+let secondInput = document.getElementById('input2')
+let firstButton = document.getElementById('but')
+let secondButton = document.querySelector('butt')
   
-function checkIn(username, password){
-    for(var x = 0; x<=information.length; x++){
-    if(information[x].username===username && information[x].password===password){
+// let answer = ''
+function checkIn(){
+    for(var x = 0; x <information.length; x++){
+    if(information[x].username===firstInput.value && information[x].password===secondInput.value){
       return true;
     }
   }
   return false;
 } 
-function logIn(username, password){
-  if(checkIn(username, password)){
-    alert(newsalert)
+
+function logIn(event){
+    if(checkIn()){
+    window.open('fbnext.html')}
+
+    else{alert('An error occured:User not valid, please check again');window.open('myfacebook.html')}
+    
   }
-  else{
-    alert("Sorry, wrong username and password. Check again.")
+firstButton.addEventListener('click', logIn)
+
+
+// ------------------------------------------------------------------------------
+// classwork
+// 1
+function q1(){
+  var a = 5;
+  if (a > 1){
+    a = 3
   }
+  alert(a);
+}
+// 2
+var a = 0
+function q2(){
+  a = 5;
 }
 
-// var promptUsername = document.querySelector('input1')
-// var promptPassword = prompt("Pls enter your password");
-    
-// logIn(promptUsername, promptPassword);
+function q22(){
+  alert(a)
+}
+// 3
+function q3(){
+  window.a = "hello";
+}
+
+function q32(){
+  alert(a);
+}
+// 4
+var a = 1;
+function q4(){
+  var a = "test";
+  alert(a);
+}
+// 5
+var a = 2;
+if (true){
+  var a = 5;
+  alert(a);
+}
+alert(a);
